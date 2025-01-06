@@ -14,16 +14,16 @@ Website ini dibangun menggunakan **Flask** untuk mengelola backend. Model yang d
 ## Teknologi yang Digunakan
 1. **Flask**: Framework backend untuk mengelola logika server.
 2. **IndoBERT**: Model pre-trained untuk pemrosesan bahasa alami (NLP) dalam bahasa Indonesia.
-3. **HTML/CSS/JavaScript**: Untuk membangun antarmuka pengguna yang interaktif.
+3. **HTML/CSS**: Untuk membangun antarmuka pengguna yang interaktif.
 4. **Bootstrap**: Library CSS untuk desain responsif.
 5. **PyTorch**: Library machine learning untuk mengintegrasikan model IndoBERT.
 
 ## Struktur Proyek
-- `app/`: Direktori utama aplikasi yang mencakup backend Flask.
+- `app.py`: File utama aplikasi yang mencakup backend Flask.
 - `templates/`: Berisi file HTML untuk frontend.
-- `static/`: Berisi aset statis seperti CSS, JavaScript, dan gambar.
-- `model/`: Berisi model IndoBERT yang telah dilatih.
-- `data/`: Dataset untuk melatih dan menguji model chatbot.
+- `static/`: Berisi aset statis seperti CSS dan gambar.
+- `chatbot/`: Berisi model IndoBERT yang telah dilatih.
+- `dataset/`: Berisi dataset yang digunakan.
 
 ## Cara Menjalankan Proyek
 1. Clone repository ini:
