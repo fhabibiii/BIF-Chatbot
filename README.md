@@ -54,6 +54,17 @@ Website ini dibangun menggunakan **Flask** untuk mengelola backend. Model yang d
    - "Apa syarat keringanan biaya kuliah?"
 3. Chatbot akan memberikan jawaban yang relevan.
 
+### Langkah-Langkah Fine-Tuning
+1. **Persiapan Dataset**: Dataset di-split menjadi 75% data latih dan 25% data uji. Tokenisasi dilakukan menggunakan tokenizer IndoBERT.
+2. **Pengaturan Hyperparameter dan Pelatihan Model**: Batch size 128 dan epoch 125 dipilih berdasarkan pengujian untuk hasil optimal.
+4. **Evaluasi Model**: Performa model diukur menggunakan akurasi, precision, recall, dan F1-score. Akurasi pada data uji mencapai 97.78%.
+
+### Evaluasi
+Evaluasi menunjukkan bahwa model mampu menjawab pertanyaan kontekstual dengan baik. Namun, terdapat kesalahan pada pertanyaan ambigu karena ketidakkonsistenan pola dalam dataset. Untuk pengembangan lebih lanjut, disarankan memperkaya variasi pola dalam dataset.
+
+## Kesimpulan
+Chatbot berbasis IndoBERT berhasil memberikan jawaban relevan dan kontekstual. Konfigurasi batch size 128 dan epoch 125 terbukti optimal. Namun, pengembangan lebih lanjut pada dataset diperlukan untuk meningkatkan akurasi pada pertanyaan ambigu.
+
 ## Lisensi
 Program ini dilisensikan di bawah [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html). Anda bebas untuk menggunakan, memodifikasi, dan mendistribusikan ulang program ini selama mengikuti ketentuan lisensi.
 
