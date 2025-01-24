@@ -3,7 +3,7 @@
 BIF Chatbot adalah aplikasi berbasis web yang dirancang untuk membantu mahasiswa Universitas Telkom Bandung dalam mengakses informasi terkait layanan akademik. Proyek ini merupakan bagian dari Tugas Akhir oleh **Faqihuddin Habibi** dengan pembimbing utama **Dr. Arie Ardiyanti Suryani, S.T., M.T.**, dan dilisensikan di bawah **GNU GPL v3**.
 
 ## Deskripsi Proyek
-Website ini dibangun menggunakan **Flask** untuk mengelola backend. Model yang digunakan adalah **IndoBERT**, yang telah saya fine-tune menggunakan dataset yang saya buat. IndoBERT adalah model pre-trained berbasis arsitektur transformer yang dirancang untuk bahasa Indonesia, seperti dijelaskan dalam penelitian oleh Koto et al. (2020) [1]. Sistem ini dirancang untuk memberikan jawaban yang relevan dan kontekstual berdasarkan pertanyaan pengguna terkait layanan akademik. Aplikasi ini telah dideploy dan dapat diakses melalui [http://bif-chatbot.xyz/](http://bif-chatbot.xyz/).
+Website ini dibangun menggunakan **Flask** untuk mengelola backend. Model yang digunakan adalah **IndoBERT**, yang telah saya fine-tune menggunakan dataset yang saya buat. IndoBERT adalah model pre-trained berbasis arsitektur transformer yang dirancang untuk bahasa Indonesia, seperti dijelaskan dalam penelitian oleh Koto et al. (2020) [1]. Sistem ini dirancang untuk memberikan jawaban yang relevan dan kontekstual berdasarkan pertanyaan pengguna terkait layanan akademik. Aplikasi ini telah dideploy dan dapat diakses melalui [http://bif-chatbot.my.id/](http://bif-chatbot.my.id/).
 
 ## Fitur Utama
 1. **Chatbot Interaktif**: Menjawab pertanyaan pengguna terkait informasi akademik.
